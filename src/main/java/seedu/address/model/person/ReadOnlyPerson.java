@@ -3,7 +3,6 @@ package seedu.address.model.person;
 import java.util.Set;
 
 import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.SimpleBooleanProperty;
 import seedu.address.model.tag.Tag;
 import seedu.address.model.tag.UniqueTagList;
 
@@ -23,10 +22,6 @@ public interface ReadOnlyPerson {
     Address getAddress();
     ObjectProperty<Remark> remarkProperty();
     Remark getRemark();
-    ObjectProperty<FavouriteStatus> favouriteStatusProperty();
-    FavouriteStatus getFavouriteStatus();
-    SimpleBooleanProperty statusProperty();
-    boolean getStatus();
     ObjectProperty<UniqueTagList> tagProperty();
     Set<Tag> getTags();
 
@@ -40,8 +35,8 @@ public interface ReadOnlyPerson {
                 && other.getPhone().equals(this.getPhone())
                 && other.getEmail().equals(this.getEmail())
                 && other.getAddress().equals(this.getAddress())
-                && other.getRemark().equals(this.getRemark())
-                && other.getFavouriteStatus().equals(this.getFavouriteStatus()));
+                && other.getAddress().equals(this.getAddress())
+                && other.getRemark().equals(this.getRemark()));
     }
 
     /**
@@ -50,8 +45,6 @@ public interface ReadOnlyPerson {
     default String getAsText() {
         final StringBuilder builder = new StringBuilder();
         builder.append(getName())
-                .append(" Favourite: ")
-                .append(getStatus())
                 .append(" Phone: ")
                 .append(getPhone())
                 .append(" Email: ")
