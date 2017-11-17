@@ -14,8 +14,8 @@ This portfolio page aims to highlight features that have been enhanced or introd
 further push the capabilities of the application towards total user-customisation. Additionally, extracts of the User and Developer Guide are
 included to further illustrate the implementation and execution of these features.
 
-*Code contributed*: [https://github.com/CS2103AUG2017-T09-B4/main/blob/master/collated/main/NabeelZaheer.md[Functional code]]
-[https://github.com/CS2103AUG2017-T09-B4/main/blob/master/collated/test/NabeelZaheer.md[Test code]] +
+*Code contributed*: [https://github.com/CS2103AUG2017-T09-B4/main/blob/master/collated/main/NabeelZhr.md[Functional code]]
+[https://github.com/CS2103AUG2017-T09-B4/main/blob/master/collated/test/NabeelZhr.md[Test code]] +
 
 === Enhancement Added: Add/Remove Tags
 

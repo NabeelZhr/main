@@ -22,7 +22,7 @@ public class FindCommandParserTest {
         assertParseFailure(parser, "     ", String.format(MESSAGE_INVALID_COMMAND_FORMAT,
                 FindCommand.MESSAGE_USAGE));
     }
-    //@@author NabeelZaheer
+    //@@author NabeelZhr
     @Test
     public void parse_validNameArgs_returnsFindCommand() {
         // no leading and trailing whitespaces

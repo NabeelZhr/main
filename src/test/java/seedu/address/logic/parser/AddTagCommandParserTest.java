@@ -17,7 +17,7 @@ import seedu.address.commons.core.index.Index;
 import seedu.address.logic.commands.AddTagCommand;
 import seedu.address.model.tag.Tag;
 
-//@@author NabeelZaheer
+//@@author NabeelZhr
 public class AddTagCommandParserTest {
 
     private AddTagCommandParser parser = new AddTagCommandParser();

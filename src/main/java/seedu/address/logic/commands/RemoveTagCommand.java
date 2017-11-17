@@ -17,7 +17,7 @@ import seedu.address.model.person.exceptions.DuplicatePersonException;
 import seedu.address.model.person.exceptions.PersonNotFoundException;
 import seedu.address.model.tag.Tag;
 
-//@@author NabeelZaheer
+//@@author NabeelZhr
 /**
  * Remove the specified tag from address book
  */

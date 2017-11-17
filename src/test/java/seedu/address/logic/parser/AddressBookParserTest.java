@@ -144,7 +144,7 @@ public class AddressBookParserTest {
                 SelectCommand.COMMAND_WORD + " " + INDEX_FIRST_PERSON.getOneBased());
         assertEquals(new SelectCommand(INDEX_FIRST_PERSON), command);
     }
-    //@@author NabeelZaheer
+    //@@author NabeelZhr
     @Test
     public void parseCommand_remove() throws Exception {
         Tag tag = new Tag("friends");
